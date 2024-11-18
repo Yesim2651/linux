@@ -13,12 +13,30 @@
 <img src="pwd1.jpg">
 
 
-**2. ıs** : 
+**2. ls** : 
 ---
 List, klasör içerisindeki dosyaları ve klasörleri listeler. İşletim sistemi tarafından dosya ve klasörler farklı şekilde renklendirilir.
 
+* Dos'taki **dir** komutunun karşılığıdır.
 
 <img src="ls1.jpg">
+
+
+
+## ls komutu parametreleri : 
+
+*  **-l** : Dosyalar hakkında ayrıntılı bilgi verir.
+   (Dosyanın sahibi, boyutu, değiştirilme tarihi...) 
+
+* **-a** : Gizli dosyalar (.ile başlayan) dahil tüm dizinin içeriğini listeler.
+
+* **-t** : Kronolojik sıralama yapar. En son yaratılan dosya/dizinden ilk yaratılana doğru sıralar.
+
+*  **ls -al** : birlikte de kullanılabilir.
+
+<img src="ls-l.jpg"> 
+
+   
 
 
 **3. mkdir** :  
@@ -45,8 +63,24 @@ List, klasör içerisindeki dosyaları ve klasörleri listeler. İşletim sistem
  ---
  * Bir terminal veya komut satırında mevcut çalışma dizinini değiştirmek için kullanılan temel bir komuttur. 
  * Bu komut, kullanıcıyı belirtilen dizine taşır, böylece o dizindeki dosyalarla çalışabilirsiniz.
+* **cd**/**home** komutuyla **/home** dizinine geçiş yapılabilir.
+
+
 
 <img src="cd1.jpg">
+
+
+DİZİN DEĞİŞTİRMEK :
+
+"  **.**   "Hali hazırdaki dizini gösterir.
+
+" **..** " Bir önceki dizini gösterir.
+
+" **cd..** " üst dizine geçer.
+
+
+<img src="cd ...jpg">
+
 
 
 **6. history :**
@@ -109,6 +143,7 @@ List, klasör içerisindeki dosyaları ve klasörleri listeler. İşletim sistem
  **man** < **komut**> parametre olarak aldığı komut hakkında daha kapsamlı bilgiye ulaşılır.
 
  #man **ls** (is komutu hakkında bilgi verir.)
+
  #man **pwd** (pwd komutu hakkında bilgi verir.)
 
  Komut çalıştırılıldığında uzun bir açıklama gelebilir .
